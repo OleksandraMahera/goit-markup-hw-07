@@ -1,0 +1,47 @@
+@media screen and (min-width: 480px) {
+    .container {
+        width: 428px;
+    }
+
+    .team-container-mini {
+        width: 296px;
+    }
+
+    .section-hero {
+        background-image: var(--gradient-hero), url(../images/hero/mob-bcg@1x.jpg);
+        background-size: cover;
+    }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .section-hero {
+        background-image: var(--gradient-hero), url(../images/hero/mob-bcg@2x.jpg);
+    }
+}
+
+
+@media screen and (min-width: 428px) {
+    .modal {
+        width: 392px;
+    }
+
+    .socnetwork-list-mobile-menu {
+        gap: 56px;
+    }
+}
+
+@media screen and (min-width: 413px) {
+    .works-list {
+        padding-right: 120px;
+    }
+}
+
+@media screen and (min-width: 429px) {
+    .card {
+        width: 396px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
