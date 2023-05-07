@@ -88,7 +88,7 @@
     }
 
     .contacts-phone {
-        padding-bottom: 9px;
+        padding-bottom: 0;
     }
 
     .contacts-email:hover,
@@ -140,6 +140,10 @@
 
     .values-subtitle {
         text-align: left;
+    }
+
+    .values-list {
+        gap: 72px 24px;
     }
 
     /* team */
