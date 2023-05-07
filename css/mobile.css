@@ -1,4 +1,10 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 428px) {
+    .section-hero {
+        background-image: var(--gradient-hero), url(../images/hero/mob-bcg@1x.jpg);
+    }
+}
+
+@media screen and (min-width: 429px) {
     .container {
         width: 428px;
     }
@@ -8,7 +14,7 @@
     }
 
     .section-hero {
-        background-image: var(--gradient-hero), url(../images/hero/mob-bcg@1x.jpg);
+        background-image: var(--gradient-hero), url(../images/hero/tab-bcg@1x.jpg);
         background-size: cover;
     }
 }
@@ -17,7 +23,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .section-hero {
-        background-image: var(--gradient-hero), url(../images/hero/mob-bcg@2x.jpg);
+        background-image: var(--gradient-hero), url(../images/hero/tab-bcg@2x.jpg);
     }
 }
 
