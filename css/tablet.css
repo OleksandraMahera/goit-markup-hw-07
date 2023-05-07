@@ -73,21 +73,13 @@
         display: inline-block;
 
         font-style: normal;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 1.33;
         letter-spacing: 0.04em;
 
         color: var(--main-text);
 
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .contacts-email {
-        padding-top: 24px;
-    }
-
-    .contacts-phone {
-        padding-bottom: 0;
     }
 
     .contacts-email:hover,
@@ -135,6 +127,7 @@
 
     .values-item {
         width: calc((100% - 24px) / 2);
+        margin-bottom: 0;
     }
 
     .values-subtitle {
@@ -152,12 +145,8 @@
 
     .team-member {
         width: calc((100% - 24px) / 2);
-        margin-bottom: 56px;
     }
 
-    .team-list {
-        gap: 24px;
-    }
 
     /* customers */
 
