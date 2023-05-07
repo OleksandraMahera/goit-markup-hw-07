@@ -12,7 +12,6 @@
 
     .header-navigation {
         display: flex;
-        align-items: center;
         gap: 120px;
     }
 
