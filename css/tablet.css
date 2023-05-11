@@ -73,7 +73,7 @@
         display: inline-block;
 
         font-style: normal;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1.33;
         letter-spacing: 0.04em;
 
@@ -100,7 +100,8 @@
     /* hero */
 
     .section-hero {
-        background-image: var(--gradient-hero), url(../images/hero/desk-bcg@1x.jpg)
+        background-image: var(--gradient-hero), url(../images/hero/desk-bcg@1x.jpg);
+        padding-bottom: 112px;
     }
 
     @media (min-device-pixel-ratio: 2),

@@ -120,7 +120,6 @@
 
     .services-list {
         display: flex;
-        flex-wrap: wrap;
         gap: 24px;
     }
 
@@ -171,6 +170,10 @@
         padding-bottom: 100px;
     }
 
+    .footer-logo {
+        text-align: left;
+    }
+
     .footer-text {
         max-width: 268px
     }
@@ -208,6 +211,10 @@
     .section-works {
         padding-top: 96px;
         padding-bottom: 120px;
+    }
+
+    .portfolio-overlay {
+        transform: translateY(101%);
     }
 
     .works-list {
